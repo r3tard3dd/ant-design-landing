@@ -17,60 +17,60 @@ title:
   </div>
 </div>
 
-Ant Design Landing 是针对产品首页的解决方案，我们秉承 [Ant Design](https://ant.design) 的 [设计价值观](https://ant.design/docs/spec/introduce-cn)，延用 [Ant Design](https://ant.design) 的 [设计原则](http://ant.design/docs/spec/proximity-cn)，可以快速搭建出你想要的首页，进一步提升你的工作效率。随着『设计者』的不断反馈，我们将持续迭代，逐步沉淀和总结出更多首页模块的代码实现，阐述首页(Landing page)的最佳实践，也十分期待你的参与和共建。
+Ant Design Landing is a solution for products landing pages，we uphold [Ant Design](https://ant.design) Of [Design Values] (https://ant.design/docs/spec/introduce-cn)，Continue to use [Ant Design](https://ant.design) Of [Design Principles] (http://ant.design/docs/spec/proximity-cn)，You can quickly build the home page you want, and further improve your work efficiency. With continuous feedback from the "designer", we will continue to iterate, gradually precipitate and summarize more code implementations of the homepage module，Explain Home(Landing page) Best practice, and I look forward to your participation and co-construction.
 
-## 作用
+## effect
 
-- 激发用户的探索兴趣，继续深入访问。
-- 引导用户直接购买产品或服务。
-- 用户通过提供个人信息或注册来交换一些试用与服务。
-- 让用户分享、评论或产生其它一些互动。
+- Stimulate users interest in exploration and regular visit in depth.
+- Guide users to directly purchase products or services.
+- Users can have trials and services by providing personal information or registering.
+- Let users share, comment or generate some other interaction.
 
-## 构成元素
+## Constituent elements
 
-- 全局导航
-- 首屏阐述 Banner:
-  > - USP(unique selling proposition) 产品卖点或价值主张: 产品 logo，名称，slogan， 媒体展示(背景，图片，视频)。
-  > - CTA(Call-To-Action): 行动按钮，登录/ 注册。
-- 分点阐述: 
-  > - 产品特色/优势。
-  > - 使用方法 + 核心功能 + 解决方案
-- 合作伙伴/客户: 成功案例，客户展示，客户证言。
-- 价格表
-- 团队展示
-- 联系我们
-- 全局页脚
+- Global navigation
+- First screen explanation banner:
+  > - USP(unique selling proposition) Product selling point or value proposition: product logo，name，slogan，media presentation (background, picture, video).
+  > - CTA(Call-To-Action): Action button, login/register.
+- Sub-point explanation:
+  > - Product features/advantages.
+  > - Method of use + Core function + Solution
+- Partners/Customers: Success stories, customer presentations, customer testimonials.
+- Price List
+- Team show
+- contact us
+- Global footer
 
-### 动效
+### Dynamic effect
 
-延用 [Ant Motion](https://motion.ant.design) 动画组件与规范，提供基本的动画组件与 banner 切换效果，以 `scroll-anim` 组件为基本动画框架，随滚动来完成页面的进出场效果。
+Continue to use [Ant Motion](https://motion.ant.design) Animation components and specifications, providing basic animation components and banner Switch effects to `scroll-anim`. The component is the basic animation frame, which can complete the page entry and exit effects with scrolling.
 
-- [单元素动效执行组件](https://motion.ant.design/components/tween-one)
-- [样式进出场组件](https://motion.ant.design/components/animate)
-- [队列进出场组件](https://motion.ant.design/components/queue-anim)
-- [文字动效组件](https://motion.ant.design/components/texty)
-- [随滚动执行效果组件](https://motion.ant.design/components/scroll-anim)
-- [Banner 切换效果组件](https://motion.ant.design/components/banner-anim)
+- [Single element dynamic execution component](https://motion.ant.design/components/tween-one)
+- [Style entry and exit components](https://motion.ant.design/components/animate)
+- [Queue entry and exit components](https://motion.ant.design/components/queue-anim)
+- [Text animation components](https://motion.ant.design/components/texty)
+- [Execute effect component with scroll](https://motion.ant.design/components/scroll-anim)
+- [Banner Toggle effect component](https://motion.ant.design/components/banner-anim)
 
-## 设计资源
+## Design resources
 
-我们提供完善的设计规范、最佳实践和设计资源文件 Sketch，来帮助业务快速设计出高质量的产品原型。
-
-
-## 谁在使用
-
-目前 Ant Design 旗下产品全部使用 Landing 搭建，如果你和你的组织使用了这个产品，欢迎到 Ant Design Landing Users 留言。
+We provide complete design specifications, best practices, and design resource file Sketch to help businesses quickly design high-quality product prototypes.
 
 
-### For 设计者
+## Who is using Landing
 
-如果你是产品或设计师，你可以找到相关模板或各模块的 Sketch 设计资源，大幅度提升设计效率和沟通效率。
-
-### For 开发者
-
-如果你是工程师，只需将你下载的以『Home』为名的文件包替换掉你的项目里的首页即可，具体介绍请查看 [使用文档](/docs/use/getting-started)。
+Currently, all Ant Design products are built using Landing. If you and your organization use this product, please leave a message at Ant Design Landing Users.
 
 
-## 如何贡献
+### For Designers
 
-我们欢迎任何形式的贡献，有任何建议或意见，请给我们 [提问]()。
+If you are a product owner or a designer, you can find related templates or Sketch design resources for each module, which greatly improves design and communication efficiency.
+
+### For Developers
+
+If you are a Developer, just replace the home page in your project with the file package you downloaded named "Home". For details, please refer to [Usage Document](/docs/use/getting-started).
+
+
+## How to contribute
+
+We welcome any kind of contribution. If you have any suggestions or comments, please send us [question]().
